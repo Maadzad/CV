@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>You can contact me by the following:</p>
+    <a href="mailto:user@example.com">E-mail</a>
+    <p>Phone: 555-555-555</p>
+    <hr>
+    <p>Alternatively send me a message below:</p>
+    <form action="mailto:user@example.com" method="post" enctype="text/plain">
+        <label for="yourName">Your Name:</label>
+        <input type="text" name="yourName" placeholder="Your Name"><br><br>
+        <label for="yourEmail">Your Email:</label>
+        <input type="email" name="yourEmail" placeholder="user@example.com"><br><br>
+        <label for="yourMessage">Message:</label><br>
+        <textarea name="yourMessage" id="textMessage" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
